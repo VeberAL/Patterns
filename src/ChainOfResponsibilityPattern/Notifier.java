@@ -1,4 +1,4 @@
-package ChainOfResponsibility;
+package ChainOfResponsibilityPattern;
 
 public abstract class Notifier {
     private int priority;
