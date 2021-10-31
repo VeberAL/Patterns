@@ -1,5 +1,5 @@
 package ChainOfResponsibilityPattern;
-
+//отправка менеджеру смс (если проблема серьезная)
 public class SmsNotifier extends Notifier{
     public SmsNotifier(int priority) {
         super(priority);

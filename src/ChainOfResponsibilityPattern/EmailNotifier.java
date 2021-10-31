@@ -1,5 +1,5 @@
 package ChainOfResponsibilityPattern;
-
+//отправка менеджеру сообщения на почту (если проблема средняя по приоритету)
 public class EmailNotifier extends Notifier{
     public EmailNotifier(int priority) {
         super(priority);

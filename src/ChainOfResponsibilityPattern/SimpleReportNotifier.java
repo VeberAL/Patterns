@@ -1,5 +1,5 @@
 package ChainOfResponsibilityPattern;
-
+//отправка менеджеру обычного сообщения (если проблема с низким приоритетом)
 public class SimpleReportNotifier extends Notifier{
 
 
