@@ -1,11 +1,11 @@
 package IteratorPattern;
 
 public class JavaDeveloper implements Collection{
-    private String name;
+    private String Name;
     private String[] skills;
 
     public JavaDeveloper(String name, String[] skills) {
-        this.name = name;
+        this.Name = Name;
         this.skills = skills;
     }
 
@@ -23,11 +23,11 @@ public class JavaDeveloper implements Collection{
     }
 
     public String getName() {
-        return name;
+        return Name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.Name = name;
     }
 
     private class SkillIterator implements Iterator{
